@@ -26,7 +26,10 @@ window.onload = () => {
 
             deleteBtn.onclick = function(e) {
                 const activeBtn = e.target
+                const confirmation = confirm("Are you sure you want to delete the task?")
+                if(confirmation) {
                 activeBtn.parentNode.remove()
+               }
             }
 
             newTask.appendChild(taskH4)
