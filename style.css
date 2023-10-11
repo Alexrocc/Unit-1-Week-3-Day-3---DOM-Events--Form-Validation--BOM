@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  padding: 1rem 0;
+  text-align: center;
+  background-color: rgb(135, 135, 199);
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* MAIN */
+
+main {
+  width: 85%;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+form input {
+  min-width: 250px;
+}
+
+#inputSection {
+  background-color: white;
+  text-align: center;
+}
+
+#checklistSection {
+  border: 1.5px solid black;
+  border-radius: 15px;
+  background-color: lightsteelblue;
+}
+
+#checklistSection h4 {
+  text-align: center;
+  font-size: 2em;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Active classes */
+
+.checkedTask {
+  color: gray;
+  text-decoration: line-through;
+}
