@@ -1,14 +1,17 @@
+/* GENERAL */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
+
+/* HEADER */
 
 header {
   padding: 1rem 0;
   text-align: center;
   background-color: rgb(135, 135, 199);
   box-sizing: border-box;
-  margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -18,9 +21,8 @@ h1 {
 /* MAIN */
 
 main {
-  width: 85%;
-  margin-inline: auto;
   box-sizing: border-box;
+  padding-bottom: 1.3em;
 }
 
 form input {
@@ -30,12 +32,15 @@ form input {
 #inputSection {
   background-color: white;
   text-align: center;
+  padding: 1em 0;
 }
 
 #checklistSection {
   border: 1.5px solid black;
   border-radius: 15px;
   background-color: lightsteelblue;
+  width: 95%;
+  margin-inline: auto;
 }
 
 #checklistSection h4 {
@@ -43,8 +48,13 @@ form input {
   font-size: 2em;
 }
 
+/* FOOTER */
+
 footer {
   text-align: center;
+  box-sizing: border-box;
+  padding: 2.4em;
+  background-color: slategrey;
 }
 
 /* Active classes */
